@@ -1,2 +1,7 @@
 'use strict';
-alert("Let's play a game,kindly answer these questions");
+
+    let userName = prompt ('please enter your first name');
+       alert (' welcome ' + userName + ' kindly answer these questions');
+       console.log(userName);
+
+       
