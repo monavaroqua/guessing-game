@@ -80,10 +80,20 @@
     }
     let coolQuestion = prompt('please guess a number');
 
-    if (coolquestion == 13) {
-        alert ('you guessed right');
-        break;
-    }
-    else{
-        alert ('try another one')
+let score = 0;
+score ++ ;
+for (let i=6, i <= arr.length,i++){
+    console.log (arr[1]);
+}
+
+let arr = ['cats', 'elephants', 'hamsters' , 'rat', 'lions' ,'birds','donkey' ,'lama','dogs','lizard' ];
+let animal=prompt('my favourite animal');
+if (animal == arr[1])
+{
+    alert ('you are right');
+    
+
+}
+    else {
+        animal=prompt('my favourite animal');
     }
