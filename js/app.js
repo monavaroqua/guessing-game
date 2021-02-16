@@ -9,11 +9,9 @@
        while (firstQuestion !== 'yes' && firstQuestion !== 'no') {
            firstQuestion = prompt ('please answer with yes or no');
        }
-
     
        if (firstQuestion.toLowerCase()==='yes' && firstQuestion.toLowerCase()!=='no') {
            alert ('you are right, i have a tortoise');
-       
        }
        else{
            alert ('you are wrong, i have a tortoise');
@@ -29,15 +27,12 @@
 
        if (secondQuestion.toLowerCase()==='yes' && secondQuestion.toLowerCase()!=='no') {
         alert ('correct, i live in jordan');
-    
     }
     else{
         alert ('actually i live in jordan');
 
     }
-       
-
-       
+    
        let thirdQuestion = prompt('do i love sweets?');
        while (thirdQuestion !== 'yes' && thirdQuestion !== 'no') {
            thirdQuestion = prompt ('please answer with yes or no');
@@ -80,20 +75,3 @@
     }
     let coolQuestion = prompt('please guess a number');
 
-let score = 0;
-score ++ ;
-for (let i=6, i <= arr.length,i++){
-    console.log (arr[1]);
-}
-
-let arr = ['cats', 'elephants', 'hamsters' , 'rat', 'lions' ,'birds','donkey' ,'lama','dogs','lizard' ];
-let animal=prompt('my favourite animal');
-if (animal == arr[1])
-{
-    alert ('you are right');
-    
-
-}
-    else {
-        animal=prompt('my favourite animal');
-    }
