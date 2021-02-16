@@ -10,35 +10,32 @@
            firstQuestion = prompt ('please answer with yes or no');
        }
 
-       let firQues = '';
-if (firstQuestion == "yes") {
-    alert ('you are right, i have a tortoise');
+    
+       if (firstQuestion.toLowerCase()==='yes' && firstQuestion.toLowerCase()!=='no') {
+           alert ('you are right, i have a tortoise');
+       
+       }
+       else{
+           alert ('you are wrong, i have a tortoise');
 
-}
-else if (firstQuestion == "no") {
-    alert= 'you are wrong, i have a tortoise';
-
-}
-document.write(firQues);
-
+       }
+       
 
        
-    
        let secondQuestion = prompt('do i live in jordan');
        while (secondQuestion !== 'yes' && secondQuestion !== 'no') {
            secondQuestion = prompt ('please answer with yes or no');
        }
 
-       let secQues = '';
-       if (secondQuestion == "yes") {
-           alert (' right, i live in jordan');
+       if (secondQuestion.toLowerCase()==='yes' && secondQuestion.toLowerCase()!=='no') {
+        alert ('correct, i live in jordan');
+    
+    }
+    else{
+        alert ('actually i live in jordan');
+
+    }
        
-       }
-       else if (secondQuestion == "no") {
-           alert= ' actually i live in jordan';
-       
-       }
-       document.write(secQues);
 
        
        let thirdQuestion = prompt('do i love sweets?');
@@ -46,29 +43,47 @@ document.write(firQues);
            thirdQuestion = prompt ('please answer with yes or no');
        }
 
-       let thirdQues = '';
-       if (thirdQuestion == "yes") {
-           alert ('i dont really have a sweet teeth');
-       
-       }
-       else if (thirdtQuestion == "no") {
-           alert= 'you are right again *_*';
-       
-       }
-       document.write(thirdQues);
+       if (thirdQuestion.toLowerCase()==='yes' && thirdQuestion.toLowerCase()!=='no') {
+        alert ('sorry i do not have sweet teath');
+    
+    }
+    else{
+        alert ('you are right again');
 
-       let fourthQuestion = prompt('am i a gamer?');
-       while (forthQuestion !== 'yes' && forthQuestion !== 'no') {
-           forthQuestion = prompt ('please answer with yes or no');
-       }
-       let fourQues = '';
-       if (fourthQuestion == "yes") {
-           alert ('no i play and lose');
-       
-       }
-       else if (fourthtQuestion == "no") {
-           alert= 'you are right .i am not';
-       
-       }
-       document.write(fourQues);
-      
+    } let fourQuestion = prompt('can i cook?');
+    while (fourQuestion !== 'yes' && fourQuestion !== 'no') {
+        fourQuestion = prompt ('please answer with yes or no');
+    }
+
+    if (fourQuestion.toLowerCase()==='yes' && fourQuestion.toLowerCase()!=='no') {
+        alert ('true i can cook delecious food');
+    
+    }
+    else{
+        alert ('i can cook well');
+
+    }
+
+
+    let lastQuestion = prompt('do i speak french?');
+    while (lastQuestion !== 'yes' && lastQuestion !== 'no') {
+        lastQuestion = prompt ('please answer with yes or no');
+    }
+
+    if (lastQuestion.toLowerCase()==='yes' && firstQuestion.toLowerCase()!=='no') {
+        alert ('oui je parle francais');
+    
+    }
+    else{
+        alert ('i speak french');
+
+    }
+    let coolQuestion = prompt('please guess a number');
+
+    if (coolquestion == 13) {
+        alert ('you guessed right');
+        break;
+    }
+    else{
+        alert ('try another one')
+    }
