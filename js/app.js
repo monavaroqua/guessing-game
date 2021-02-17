@@ -1,4 +1,5 @@
 'use strict';
+let score = 0;
 
     let userName = prompt ('please enter your first name');
        alert (' welcome ' + userName + ' kindly answer these questions');
@@ -10,7 +11,7 @@
            firstQuestion = prompt ('please answer with yes or no');
        }
     
-       if (firstQuestion.toLowerCase()==='yes' && firstQuestion.toLowerCase()!=='no') {
+       if (firstQuestion ==='yes' && firstQuestion !=='no') {
            alert ('you are right, i have a tortoise');
            score++;
        }
@@ -26,7 +27,7 @@
            secondQuestion = prompt ('please answer with yes or no');
        }
 
-       if (secondQuestion.toLowerCase()==='yes' && secondQuestion.toLowerCase()!=='no') {
+       if (secondQuestion ==='yes' && secondQuestion !=='no') {
         alert ('correct, i live in jordan');
         score++,
     }
@@ -40,7 +41,7 @@
            thirdQuestion = prompt ('please answer with yes or no');
        }
 
-       if (thirdQuestion.toLowerCase()==='yes' && thirdQuestion.toLowerCase()!=='no') {
+       if (thirdQuestion==='yes' && thirdQuestion !=='no') {
         alert ('sorry i do not have sweet teath');
     
     }
@@ -53,7 +54,7 @@
         fourQuestion = prompt ('please answer with yes or no');
     }
 
-    if (fourQuestion.toLowerCase()==='yes' && fourQuestion.toLowerCase()!=='no') {
+    if (fourQuestion ==='yes' && fourQuestion !=='no') {
         alert ('true i can cook delecious food');
         score++;
     
@@ -69,7 +70,7 @@
         lastQuestion = prompt ('please answer with yes or no');
     }
 
-    if (lastQuestion.toLowerCase()==='yes' && firstQuestion.toLowerCase()!=='no') {
+    if (lastQuestion ==='yes' && firstQuestion !=='no') {
         alert ('oui je parle francais');
         score++;
     
@@ -80,13 +81,13 @@
     }
     let coolQuestion = prompt('please guess a number');
 
-for(let i=0 ; i<3 ; i++  )
+for(let i=0 ; i < 5 ; i++ );{
 
 
 if(Number(coolQuestion)==13)
 {
   alert('you guessed right');
-  score++;
+  score++; 
   
   break;
 
