@@ -1,5 +1,5 @@
 'use strict';
-let score = 0;
+
 
     let userName = prompt ('please enter your first name');
        alert (' welcome ' + userName + ' kindly answer these questions');
@@ -13,7 +13,7 @@ let score = 0;
     
        if (firstQuestion ==='yes' && firstQuestion !=='no') {
            alert ('you are right, i have a tortoise');
-           score++;
+         
        }
        else{
            alert ('you are wrong, i have a tortoise');
@@ -29,7 +29,7 @@ let score = 0;
 
        if (secondQuestion ==='yes' && secondQuestion !=='no') {
         alert ('correct, i live in jordan');
-        score++,
+      
     }
     else{
         alert ('actually i live in jordan');
@@ -47,7 +47,7 @@ let score = 0;
     }
     else{
         alert ('you are right again');
-        score++,
+       
 
     } let fourQuestion = prompt('can i cook?');
     while (fourQuestion !== 'yes' && fourQuestion !== 'no') {
@@ -56,7 +56,7 @@ let score = 0;
 
     if (fourQuestion ==='yes' && fourQuestion !=='no') {
         alert ('true i can cook delecious food');
-        score++;
+       
     
     }
     else{
@@ -72,53 +72,28 @@ let score = 0;
 
     if (lastQuestion ==='yes' && firstQuestion !=='no') {
         alert ('oui je parle francais');
-        score++;
-    
+      
     }
     else{
         alert ('i speak french');
 
     }
-    let coolQuestion = prompt('please guess a number');
 
-for(let i=0 ; i < 5 ; i++ );{
+    let arr=['cat','elephant','rabbit','dog','lizard','hamster','bird','lion','monkey','lama'];
 
-
-if(Number(coolQuestion)==13)
-{
-  alert('you guessed right');
-  score++; 
-  
-  break;
-
-}
-else
-{
-  if (Number(coolQuestion)>13){
-    alert('too high');
-    coolQuestion=prompt('please guess a number');
-  }
-  if(Number(coolQuestion)<13)
-  { alert('too low');
-    coolQuestion=prompt('please guess a number?');
-  }
-}
-
-alert('it's 13');
-
-
-    let arr = ['cat','elephant','rabbit','dog','hamster','lizard','birds','lama','monkey','lion']
-alert('cat','elephant','rabbit','dog','hamster','lizard','birds','lama','monkey','lion']
-alert)
-    let animal=prompt('what is my favourite animal?');
-if (animal == arr[1])
-{
-    alert ('you are right');
+    alert('cat,elephant,rabbit,dog,lizard,hamster,bird,lion,monkey,lama')
     
-score++;
-}
-    else {
-        animal=prompt('my favourite animal');
+        let animal=prompt('can you guess my favourite animal from the previous list?');
 
-    }
-    alert('your score is-->'+score+'out of 7');
+        for (let i=0;i<5;i++) {
+            if (animal === arr[1]) { 
+            
+                alert ('you are right');
+                break;   
+            }
+             else {
+                    animal=prompt('give it another try');
+                    }
+                }
+            alert('it is elephant')
+           
