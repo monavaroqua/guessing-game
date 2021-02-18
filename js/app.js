@@ -79,6 +79,33 @@
 
     }
 
+     let luckyNumber = Number(prompt('can guess my lucky number ?'));
+
+
+ while (luckyNumber === ' ' && luckyNumber === null) {
+  luckyNumber = Number(prompt('can you guess my lucky number ?'));
+ }
+
+ for (let i = 0; i <= 3 ; i++) {
+   if (luckyNumber > 13) {
+     alert('wrong answer   \n  This is too high  Try again');
+     luckyNumber = Number(prompt('can you guess my lucky number'));
+   }
+   if (luckyNumber < 13) {
+     alert('wrong answer  \n This is too low  Try again');
+     luckyNumber = Number(prompt('can you guess my lucky number ?'));
+   }
+   if (luckyNumber === 13) {
+
+     alert('you guessed it right,good job');
+
+{ break; }
+   }
+
+}
+
+
+
     let arr=['cat','elephant','rabbit','dog','lizard','hamster','bird','lion','monkey','lama'];
 
     alert('cat,elephant,rabbit,dog,lizard,hamster,bird,lion,monkey,lama')
