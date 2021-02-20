@@ -3,10 +3,28 @@ body {
     margin: auto;
 }
 .me {
-    width: 600px ;
+    width: 900px;
     display: block;
     margin: auto;
 }
+header nav ul li {
+    font-family: cursive;
+    display: inline;
+    padding: 10px;
+    color: royalblue;
+}
 p {
     line-height: 40px;
+}
+header nav ul {
+    text-align: center;
+}
+p span {
+    color: mediumorchid;
+    font: weight 700px;;
+
+}
+main nav ul li {
+   background-color: lightslategrey;
+
 }
