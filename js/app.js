@@ -3,8 +3,10 @@ let score=0;
 
 
     let userName = prompt ('please enter your first name');
+   
        alert (' welcome ' + userName + ' kindly answer these questions');
-       console.log(userName);
+    
+       //console.log(userName);
 
     
        let firstQuestion = prompt('do i have a pet?');
@@ -84,7 +86,7 @@ let score=0;
 
     }
 
-     let luckyNumber = Number(prompt('can guess my lucky number ?'));
+     let luckyNumber = prompt('can guess my lucky number ?');
 
 
  while (luckyNumber === ' ' && luckyNumber === null) {
