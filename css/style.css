@@ -25,6 +25,8 @@ p span {
 
 }
 main nav ul li {
-   background-color: lightslategrey;
+  color: plum;
+   font-size: 20px;
+   font-family:fantasy;
 
 }

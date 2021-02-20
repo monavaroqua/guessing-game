@@ -2,7 +2,12 @@
 let score=0;
 
 
-    let userName = prompt ('please enter your first name');
+   let userName = prompt ('please enter your first name');
+    while (userName === ''){
+        userName = prompt ('please enter your first name')
+
+    }
+
    
        alert (' welcome ' + userName + ' kindly answer these questions');
     
@@ -25,7 +30,7 @@ let score=0;
        
 
        
-       let secondQuestion = prompt('do i live in jordan');
+      let secondQuestion = prompt('do i live in jordan');
        while (secondQuestion !== 'yes' && secondQuestion !== 'no') {
            secondQuestion = prompt ('please answer with yes or no');
        }
@@ -40,7 +45,7 @@ let score=0;
 
     }
     
-       let thirdQuestion = prompt('do i love sweets?');
+      let thirdQuestion = prompt('do i love sweets?');
        while (thirdQuestion !== 'yes' && thirdQuestion !== 'no') {
            thirdQuestion = prompt ('please answer with yes or no');
        }
@@ -54,7 +59,8 @@ let score=0;
         score++;
        
 
-    } let fourQuestion = prompt('can i cook?');
+    } 
+    let fourQuestion = prompt('can i cook?');
     while (fourQuestion !== 'yes' && fourQuestion !== 'no') {
         fourQuestion = prompt ('please answer with yes or no');
     }
@@ -71,7 +77,7 @@ let score=0;
     }
 
 
-    let lastQuestion = prompt('do i speak french?');
+   let lastQuestion = prompt('do i speak french?');
     while (lastQuestion !== 'yes' && lastQuestion !== 'no') {
         lastQuestion = prompt ('please answer with yes or no');
     }
