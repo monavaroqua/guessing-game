@@ -1,4 +1,5 @@
 'use strict';
+let score=0;
 
 
     let userName = prompt ('please enter your first name');
@@ -13,7 +14,7 @@
     
        if (firstQuestion ==='yes' && firstQuestion !=='no') {
            alert ('you are right, i have a tortoise');
-         
+         score++;
        }
        else{
            alert ('you are wrong, i have a tortoise');
@@ -29,6 +30,7 @@
 
        if (secondQuestion ==='yes' && secondQuestion !=='no') {
         alert ('correct, i live in jordan');
+        score++;
       
     }
     else{
@@ -47,6 +49,7 @@
     }
     else{
         alert ('you are right again');
+        score++;
        
 
     } let fourQuestion = prompt('can i cook?');
@@ -56,6 +59,7 @@
 
     if (fourQuestion ==='yes' && fourQuestion !=='no') {
         alert ('true i can cook delecious food');
+        score++;
        
     
     }
@@ -72,6 +76,7 @@
 
     if (lastQuestion ==='yes' && firstQuestion !=='no') {
         alert ('oui je parle francais');
+        score++;
       
     }
     else{
@@ -98,6 +103,7 @@
    if (luckyNumber === 13) {
 
      alert('you guessed it right,good job');
+     score++;
 
 { break; }
    }
@@ -116,6 +122,7 @@
             if (animal === arr[1]) { 
             
                 alert ('you are right');
+                score++;
                 break;   
             }
              else {
@@ -123,4 +130,4 @@
                     }
                 }
             alert('it is elephant')
-           
+           alert('your score is ==>'+score+'out of 7')
